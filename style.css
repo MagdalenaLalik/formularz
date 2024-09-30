@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(97, 6, 113);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display:  block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #e7a4ff; 
+    border-radius: 4px;
+}
+
+button {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(149, 102, 164);
+}

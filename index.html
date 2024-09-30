@@ -1,0 +1,55 @@
+<html> 
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <form>
+
+            <label form="imie"><strong>Imię:</strong></label>
+            <input type="text" id="imie" placeholder="Wpisz imię"><br>
+
+            <label form="nazwisko"><strong>Nazwisko:</strong></label>
+            <input type="text" id="nazwisko" placeholder="Wpisz nazwisko"><br>
+
+            <label form="email"><strong>Adres e-mail:</strong></label>
+            <input type="email" id="email" placeholder="Wpisz adres e-mail"><br>
+
+            <label form="telefon"><strong>Numer telefonu:</strong></label>
+            <input type="tel" id="telefon" placeholder="Wpisz swój numer telefonu"><br>
+
+            <label form="haslo"><strong>Hasło:</strong></label>
+            <input type="password" id="haslo" placeholder="Wpisz hasło"><br>
+
+            <label>
+                <input type="checkbox" id="check">
+                Zgadzam się na warunki.
+            </label><br>
+
+            <label><strong>Podaj swoją płeć:</strong></label><br>
+            <input type="radio" name="plec" value="Kobieta">Kobieta<br>
+            <input type="radio" name="plec" value="Mężczyzna">Mężczyzna<br>
+
+            <label form="jedzenie"><strong>Wybierz kraj:</strong></label>
+            <select id="kraj">
+                <option value="">Wybierz:</option>
+                <option value="Polska">Polska</option>
+                <option value="USA">USA</option>
+                <option value="Francja">Francja</option>
+                <option value="Hiszpania">Hiszpania</option>
+                <option value="Protugalia">Protugalia</option>
+            </select><br>
+
+            <button type="reset">Resetuj formularz</button>
+
+            <button type="submit">Wyślij</button>
+
+        </form>
+
+    </body>
+
+</html>
